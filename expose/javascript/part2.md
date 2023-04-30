@@ -34,3 +34,9 @@
 15. == checks if the values of two variable are the same, and will convert automatically. === checks if two variable are of the same type, without converting any of the variables.
 16. See file
 17. The result will be [2, 4, 6]. When modifyArray() is called, it will start going through the code. When line 4 is reached, it will go to the function doSomething with that element of array as the parameter, and execute the code in doSomething, which just multiplies the value by 2. It will do that each time, and ultimately return newArr, which is the old array with values nultiplied by 2.
+18. See file
+19. The code prints 1, 3, and 4 right away after calling, but then prints 2 one second after the call is made. The output is:
+    1
+    4
+    3
+    2
