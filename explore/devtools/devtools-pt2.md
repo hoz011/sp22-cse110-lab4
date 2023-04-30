@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 are inputted as a string type, so when added together, they are concatenated and the result is also of type string.
+2. To fix it, I need to convert num1 and num2 to type int BEFORE they are added together.
