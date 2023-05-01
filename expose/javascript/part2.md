@@ -13,8 +13,8 @@
     A. student.name
     B. student["Grad Year"]
     C. student.greeting()
-    D. 
-    E. 
+    D. student["Favorite Teacher"].name
+    E. student["courseLoad"][0]
 13. ARITHMETIC:
     A. '32', 2 was converted to string
     B. 1, '3' was converted to int
